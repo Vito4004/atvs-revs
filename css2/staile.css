@@ -1,0 +1,54 @@
+section{
+    background-color: rgb(134, 134, 247);
+    display: flex;
+    border-radius:20px ;
+    margin: 10px;
+    padding-left: 4%;
+    border: 1px,black,solid;
+}
+
+link{
+    border-radius: 50%;
+}
+
+h1{
+font-family: arial;
+text-align:center;
+align-self: center;
+}
+p{
+    font-family: arial;
+    font-size: small;
+text-align: center;
+color: aliceblue;
+    }
+
+    h2{
+        font-family: monospace;
+        text-align: center;
+        color: aliceblue;
+        }
+
+img{
+    border-radius: 20%;
+    border: 2px,black,solid;
+    align-self: center;
+
+    }
+
+footer{
+background-color: rgb(104, 181, 245);
+padding: 20px ,0;
+bottom: auto;
+position: absolute;
+width: 100%;
+
+}
+
+header{
+    background-color: rgb(83, 83, 255);
+    border-radius: 20px;
+    border: 5px,black,solid;
+    padding: 10px 0;
+    top: auto;
+}
