@@ -5,11 +5,12 @@
 }
 
 section{
-    display: flex;
+    justify-content:center ;
     align-items: center;
     align-content: center;
     text-align: center;
-
+    display: flex;
+    
 }
 
 div{
@@ -39,7 +40,7 @@ a:hover{
 
 img{
     border: solid,black,2px;
-    border-radius: 20px;
+    border-radius: 25px;
 }
 
 footer{

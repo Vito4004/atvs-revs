@@ -5,8 +5,10 @@
 }
 
 header{
+    background-color: rgb(123, 43, 216);
     padding: 10px 0;
-    background-color: rgb(252, 245, 236);
+    text-align: center;
+
 }
 
 form{
@@ -19,40 +21,82 @@ p{
     padding: 10px 0;
     margin: 0 10px;
     font-family: arial;
-
+    color: aliceblue;
 }
 
 h2{
     margin: 0 10px;
     padding: 5px 0;
+    color: aliceblue;
 }
 
 h1{
     margin: 0 10px;
     padding: 5px 0;
+    color: aliceblue;
 }
 
 input{
     margin: 10px 0;
     padding: 5px 5px;
-    border-radius:5px ;
-    border:2px ,solid,black ;
+    border-radius:8px ;
+    border:2px ,solid,rgb(123, 43, 216) ;
+    color: aliceblue;
+    cursor: pointer;
+    background-color: rgb(228, 226, 226);
 
 }
 textarea{
     border-radius:5px ;
-    border:2px ,solid,black ;
+    border:2px ,solid,rgb(123, 43, 216);
+    margin: 0px 10px;
+    background-color: rgb(228, 226, 226);
+
+}
+
+.bu{
+   color: white;
+   background-color: rgb(123, 43, 216);
+   cursor: pointer;
+   transition: 0.5s;
+}
+
+.bu:hover{
+background-color: aliceblue;
+color: black;
+border:rgb(90, 0, 126),solid,2px ;
+
+}
+
+div{
+display: flex;
+margin: 40px 0;
+}
+section{
+    padding: 0px 20px;
 
 }
 
 footer{
-    bottom: 0px;
+    background-color: rgb(123, 43, 216);
+    color: azure;
+    text-align: center;
+    bottom:0px;
     padding:5px 0;
+    position: absolute;
     width: 100%;
-    background-color: rgb(252, 245, 236);
+
 }
 
-.bu{
-   
-    background-color: rgb(248, 235, 218);
+body{
+    background-color: black;
+}
+
+label{
+    color: aliceblue;
+}
+
+.tex{
+text-align: center;
+
 }
