@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+h1{
+text-align: center;
+color: rgb(255, 255, 255);
+font-family: arial;
+text-shadow:2px 2px 0px rgb(0, 0, 0);
+padding: 5px 0;
+
+}
+
 section{
     justify-content:center ;
     align-items: center;
@@ -24,6 +33,7 @@ header{
     padding: 20px 0;
     text-align: center;
     background-color: rgb(131, 131, 255);
+    font-size: 25px;
 }
 
 a{
@@ -35,7 +45,7 @@ transition: 0.3s;
 }
 
 a:hover{
-    color: rgb(92, 0, 0);
+    color: rgb(206, 0, 0);
 }
 
 img{
@@ -44,12 +54,11 @@ img{
 }
 
 footer{
-    padding:3px 0;
     background-color: rgb(131, 131, 255);;
     color: azure;
     text-align: center;
     bottom: 0px;
-    padding:5px 0;
+    padding:10px 0;
     width: 100%;
 }
 

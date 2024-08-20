@@ -34,6 +34,7 @@ h1{
     margin: 0 10px;
     padding: 5px 0;
     color: aliceblue;
+
 }
 
 input{
@@ -44,13 +45,20 @@ input{
     color: aliceblue;
     cursor: pointer;
     background-color: rgb(228, 226, 226);
+    transition: 0.5s;
 
 }
+
+input:hover{
+    border: rgb(40, 0, 85) solid 2px;
+}
+
 textarea{
     border-radius:5px ;
     border:2px ,solid,rgb(123, 43, 216);
     margin: 0px 10px;
     background-color: rgb(228, 226, 226);
+    transition: 0.5s;
 
 }
 
@@ -58,6 +66,7 @@ textarea{
    color: white;
    background-color: rgb(123, 43, 216);
    cursor: pointer;
+   border: rgb(40, 0, 85) solid 2px;
    transition: 0.5s;
 }
 
