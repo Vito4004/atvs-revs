@@ -35,17 +35,29 @@ h3{
    margin: 10px 0;
 }
 
+.teto{
+    color: rgb(0, 0, 0);
+    font-family: arial;
+    font-size: 15px;
+transition: 0.5s;
+}
+
+.teto:hover{
+    color: aliceblue;
+}
+
 section{
 font-family:monospace;
 text-align: center;
 font-size: 25px;
 transition: 0.5s;
 margin: 30px 50px;
+color: aliceblue;
 }
 
 div{
     display: flex;
- 
+
 }
 
 section:hover{
@@ -88,17 +100,19 @@ background-color: black;
     }
 
     img{
-        border-radius: 50px;
+        border-radius: 30%;
         transition: 0.5s;
         border: white,solid,5px;
+        width:200px;
+        height:200px;
     }
-
 
     img:hover{
-
-margin: 10px;
-border-radius: 10px;
-    }
+        margin: 10px;
+        border-radius: 10px;
+        width:230px;
+        height:230px;
+            }
 
 header img:hover{
     border-radius: 50px;

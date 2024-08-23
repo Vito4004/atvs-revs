@@ -10,20 +10,9 @@ color: rgb(255, 255, 255);
 font-family: arial;
 text-shadow:2px 2px 0px rgb(0, 0, 0);
 padding: 5px 0;
+
 }
 
-section{
-    justify-content:center ;
-    align-items: center;
-    align-content: center;
-    text-align: center;
-    display: flex;
-}
-
-div{
-padding: 30px 20px;
-margin: 0 15px;
-}
 
 header{
     color: aliceblue;
@@ -31,34 +20,22 @@ header{
     padding: 20px 0;
     text-align: center;
     background-color: rgb(131, 131, 255);
-    font-size: 25px;
-    border: 2px black solid;
-}
-
-a{
-text-decoration: none;    
-font-family:arial;
-color: rgb(0, 55, 80);
-font-size: 20px;
-transition: 0.3s;
+    font-size: 10px;
 
 }
 
-a:hover{
-    color: rgb(206, 0, 0);
-}
 
 img{
     border: solid,black,3px;
     border-radius: 25px;
-    transition: 0.5s;
+display:flex;
+align-self: center;
+text-align: center;
+align-content: center;
+margin: 20px 170px;
 
 }
 
-img:hover{
-    border: rgb(252, 158, 158),solid,2px;
-
-}
 
 footer{
     background-color: rgb(131, 131, 255);;
@@ -69,20 +46,14 @@ footer{
     width: 100%;
 }
 
-.pri{
-    font-size: 20px;
-    color: rgb(41, 0, 0);
-}
 
 body{
     background-color: rgb(222, 222, 250);
 }
 
-header img :hover{
-    border: solid,black,2px;
-
-}
-
-.ibagem:hover{
-    border: 2px 2px solid black;
+p{
+font-family: arial;
+margin: 0px 10px;
+padding: 10px 0;
+text-align: justify;
 }
