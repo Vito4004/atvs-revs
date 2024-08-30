@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+function butao(){
+    document.getElementById("sla2").innerHTML= "voce clicou";
+    document.getElementById("sla1").style.display="block";
+    
+    }
+
+</script>
+
+<script>
+function estilo(){
+document.getElementById("sla2").style.fontSize="20px";
+document.getElementById("sla2").style.fontFamily="monospace";
+
+}
+
+</script>
+
+<h2>funçoes java </h2>
+
+<button type="button" onclick="butao()">clique</button>
+
+<button id ="sla1" style="display: none;" type="button" onclick="estilo()">estilo</button>
+
+<p id = "sla2"></p>
+
+</body>
+</html>
