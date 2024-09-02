@@ -40,9 +40,19 @@ box-shadow: -8px -8px 15px rgba(0, 0, 0,0.1);
 
 form .res input{
     text-align: center;
-background-color: aliceblue;
+    background-color: aliceblue;
     width: 300px;
     margin: 15px;
     height: 68px;
     box-shadow: -8px -8px 15px rgba(0, 0, 0,0.1);
+}
+
+form input.igua{
+    width: 145px;
+    background-color: rgb(196, 196, 196);
+}
+
+form input.op{
+background-color: rgb(255, 205, 111);
+
 }
