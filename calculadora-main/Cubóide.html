@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculadora de área de Cubóide</title>
+    <meta name="description" content="Aqui está a descrição da página." />
+    <meta name="keywords" content="" />
+   <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+    <div>
+
+        <div class =hh>
+            <h2>Calculadora de área de Cubóide</h2>
+        </div>
+
+        <hr class>
+
+        <p >Abaixo vamos calcular a área do Cubóide utilizando a fórmula: <code>2(diamentro*base+diamentro*altura+base*altura)</code></p>
+
+        <img src="https://media.geeksforgeeks.org/wp-content/uploads/Cuboid-Diagram-162619.png" alt="">
+
+        <form method="post">
+            <div>
+                <label for="base" class="form-label">largura:</label>
+                <input type="number" class="form-control" id="base" name="base" placeholder="" value="" required>
+              
+                <label for="lado" class="form-label">diamentro:</label>
+                <input type="number" class="form-control" id="lado" name="lado" placeholder="" value="" required>
+
+                <label for="autura" class="form-label">autura:</label>
+                <input type="number" class="form-control" id="autura" name="autura" placeholder="" value="" required>
+              </div>
+
+            <div>
+                <input type="submit" class="w" id="btnCalc" value="Calcular" />
+            </div>
+
+        </form>
+
+        <div class>
+            <h3 id="resultado"></h3>
+        </div>
+    </div>
+
+    <script>
+
+        document.getElementById("btnCalc").addEventListener("click", function (event) {
+
+            event.preventDefault();
+            var lado = document.getElementById("lado").value;
+            var base = document.getElementById("base").value;
+            var autura = document.getElementById("autura").value;
+            var area = (2(lado*base)+(lado*altura)+(base*altura));
+            document.getElementById("resultado").innerHTML = "Resultado: " + area;
+        });
+
+
+    </script>
+
+</body>
+
+</html>

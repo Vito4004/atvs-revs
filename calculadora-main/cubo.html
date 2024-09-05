@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculadora de área de cubo</title>
+    <meta name="description" content="Aqui está a descrição da página." />
+    <meta name="keywords" content="" />
+   <link rel="stylesheet" href="">
+</head>
+
+<body>
+
+    <div>
+
+        <div class =hh>
+            <h2>Calculadora de área de cubo</h2>
+        </div>
+
+        <hr class>
+
+        <p >Abaixo vamos calcular a área do cubo utilizando a fórmula: <code>6*(aresta * aresta)</code></p>
+
+        <img src="https://tse2.mm.bing.net/th?id=OIP.y_yka0IJt60sUUIkFsYDUgHaFG&pid=Api&P=0&h=180" alt="">
+
+        <form method="post">
+            <div class>
+                <label for="base" class="form-label">aresta:</label>
+                <input type="number" class="form-control" id="base" name="base" placeholder="" value="" required>
+              </div>
+
+            <div>
+                <input type="submit" class="w" id="btnCalc" value="Calcular" />
+            </div>
+
+        </form>
+
+        <div class>
+            <h3 id="resultado"></h3>
+        </div>
+    </div>
+
+    <script>
+
+        document.getElementById("btnCalc").addEventListener("click", function (event) {
+ 
+            event.preventDefault();
+            var base = document.getElementById("base").value;
+            var area = 6*(base * base);
+            document.getElementById("resultado").innerHTML = "Resultado: " + area;
+        });
+
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculadora de área do hexagono</title>
+    <meta name="description" content="Aqui está a descrição da página." />
+    <meta name="keywords" content="" />
+   <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+    <div>
+
+        <div class =hh>
+            <h2>Calculadora de área de hexagono</h2>
+        </div>
+
+        <hr class>
+
+        <p >Abaixo vamos calcular a área do hexagono utilizando a fórmula: <code>base*6*apotema/2</code></p>
+
+        <img src="data:image/png;base64,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" alt="">
+
+        <form method="post">
+            <div class>
+                <label for="base" class="form-label">lado:</label>
+                <input type="number" class="form-control" id="base" name="base" placeholder="" value="" required>
+
+                
+                <label for="autura" class="form-label">apotema:</label>
+                <input type="number" class="form-control" id="autura" name="autura" placeholder="" value="" required>
+              </div>
+
+            <div>
+                <input type="submit" class="w" id="btnCalc" value="Calcular" />
+            </div>
+
+        </form>
+
+        <div class>
+            <h3 id="resultado"></h3>
+        </div>
+    </div>
+
+    <script>
+
+        document.getElementById("btnCalc").addEventListener("click", function (event) {
+
+            event.preventDefault();
+            var autura = document.getElementById("autura").value;
+            var base = document.getElementById("base").value;
+            var area = (base*6)*(autura)/2;
+            document.getElementById("resultado").innerHTML = "Resultado: " + area;
+        });
+
+
+    </script>
+
+</body>
+
+</html>

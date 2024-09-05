@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculadora de área do Trapezoide irregular</title>
+    <meta name="description" content="Aqui está a descrição da página." />
+    <meta name="keywords" content="" />
+   <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+    <div>
+
+        <div class =hh>
+            <h2>Calculadora de área do Trapezoide irregular</h2>
+        </div>
+
+        <hr class>
+
+        <p >Abaixo vamos calcular a área do Trapezoide irregular utilizando a fórmula: <code> (Base maior + base menor) * altura/2</code></p>
+
+        <img src="https://tse3.mm.bing.net/th?id=OIP.0_uY9o563sPL-rY8TTfZiQHaER&pid=Api&P=0&h=180" alt="">
+
+        <form method="post">
+            <div class ="butao">
+                <label for="base" class="form-label">base maior:</label>
+                <input type="number" class="form-control" id="base" name="base" placeholder="" value="" required>
+              
+                <label for="autura" class="form-label">base menor:</label>
+                <input type="number" class="form-control" id="autura" name="autura" placeholder="" value="" required>
+
+                <label for="diagonal" class="form-label">altura:</label>
+                <input type="number" class="form-control" id="diagonal" name="diagonal" placeholder="" value="" required>
+              </div>
+
+            <div>
+                <input type="submit" class="w" id="btnCalc" value="Calcular" />
+            </div>
+
+        </form>
+
+        <div class>
+            <h3 id="resultado"></h3>
+        </div>
+    </div>
+
+    <script>
+
+        document.getElementById("btnCalc").addEventListener("click", function (event) {
+
+            event.preventDefault();
+            var diagonal = document.getElementById("diagonal").value;
+            var base = document.getElementById("base").value;
+            var autura = document.getElementById("autura").value;
+            var area = ( (base+autura)*(diagonal/2));
+            document.getElementById("resultado").innerHTML = "Resultado: " + area;
+        });
+
+
+    </script>
+
+</body>
+
+</html>

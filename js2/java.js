@@ -1,2 +1,2 @@
-alert('ooooOOOOooooOooOOO')
-prompt('')
+window.alert('ooooOOOOooooOooOOO')
+

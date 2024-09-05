@@ -7,35 +7,24 @@
 </head>
 <body>
     
-    <label for="Dbase" class="form-label">autura:</label>    
+<form method="">
+
+<label for="Dbase" class="form-label">autura:</label>    
 <input type="number" id="Dbase" name="base" value="" required>dano</button>
 
 <label for="afn" class="form-label">autura:</label>
-<input type="text" id="afn" name="afinidade" value="" required>afinidade</button>
+<input type="number" id="afn" name="afinidade" value="" required>afinidade</button>
 
 <label for="Dele" class="form-label">autura:</label>
 <input type="number" id="Dele" name="elemento" value="" required>elemento</button>
 
-<script>
+<input type="submit" id="calculo" value="calcular"/>
 
-function calc(){
-var Dbase =document.getElementById("Dbase").value;
-var afn =document.getElementById("afn").value;
-var Dele =document.getElementById("Dele").value;
+<h3 id="resul"></h3>
 
-var ele =((Dele*po*100)/2);
+</form>
 
-if(afn="verde"){afn=25}
-else if(afn="azul"){afn=50}
-else if(afn="branco"){afn=75}
-else if(afn="roxo"){afn=100}
+<script src="c:\Users\aluno\Desktop\vito\java5.5.js"></script>
 
-var fin =(((Dbase*afn*100)/100)+Dele);
-document.getElementById("resul").innerHTML="resul: "+fin; 
-}
-</script>
-
-<button type="button" onclick="calc()">calcular</button>
-<h2 id="resul"></h2>
 </body>
 </html>

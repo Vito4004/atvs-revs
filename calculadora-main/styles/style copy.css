@@ -1,0 +1,124 @@
+h2{
+text-align:center ;
+font-family:sans-serif;
+font-size: 40px;
+color: rgb(255, 255, 255);
+min-width:100% ;
+min-height: 100%;
+}
+p{
+    font-family: arial;
+    padding: 5px;
+   margin: 5px;
+   text-align:center ;
+}
+
+code{
+    color: brown;
+    font-size: 18px;
+}
+
+input{
+    padding: 5px;
+   margin: 5px; 
+
+}
+
+.w{
+    min-width: 600px;
+    height: 40px;
+    background-color: #004faa;
+    color: azure;
+    font-family: arial;
+    border-color:rgb(0, 0, 0) ;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+label{
+    font-family: arial;
+    padding: 5px;
+   margin: 5px;
+
+}
+
+img{
+    align-content: center;
+    margin:10px ;
+    padding: 30px;
+}
+.butao{
+    display: flex;
+}
+
+.gg{
+display: flex;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 15px;
+margin: 15px;
+transition: 1s;
+}
+
+.gg a{
+    color: black;
+    text-decoration: none;
+    text-decoration-line: none;
+    border: 5px ;
+   
+}
+
+div{
+    text-align: center;
+    align-self: center;
+    align-content: center;
+}
+input{
+text-align:center ;
+border-radius:10px ;
+}
+
+
+
+p{
+ color :rgb(0, 79, 170);
+ font-size: 20px;
+}
+
+.gg section :hover{
+    color:rgb(10, 0, 65);
+    transition: 0.5s;
+    font-size: 22px;
+    image-rendering: auto;
+    
+}
+
+.hh{
+background-color: rgb(0, 79, 170);
+position:relative;
+bottom: 10px;
+width: 105%;
+border-radius:0px 0px 0px 20px ;
+}
+
+img{
+border: 2px ,#004faa,solid;
+border-radius: 20px;
+transition: 0.5px;
+
+}
+
+img:hover{
+    border: 3px ,rgb(0, 3, 48),solid;
+    
+}
+
+img{
+background-color: rgb(255, 255, 255);
+}
+
+body{
+    background-color: rgb(215, 236, 250);
+}
+

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculadora de área de quadrado</title>
+    <meta name="description" content="Aqui está a descrição da página." />
+    <meta name="keywords" content="" />
+   <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+    <div>
+
+        <div class =hh>
+            <h2>Calculadora de área do quadrado</h2>
+        </div>
+
+        <hr class>
+
+        <p >Abaixo vamos calcular a área do quadrado utilizando a fórmula: <code>(lado * lado)</code></p>
+
+        <img src="data:image/png;base64,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" alt="">
+
+        <form method="post">
+            <div class>
+                <label for="base" class="form-label">lado:</label>
+                <input type="number" class="form-control" id="base" name="base" placeholder="" value="" required>
+              </div>
+
+            <div>
+                <input type="submit" class="w" id="btnCalc" value="Calcular" />
+            </div>
+
+        </form>
+
+        <div class>
+            <h3 id="resultado"></h3>
+        </div>
+    </div>
+
+    <script>
+
+        document.getElementById("btnCalc").addEventListener("click", function (event) {
+
+            event.preventDefault();
+            var base = document.getElementById("base").value;
+            var area = (base * base);
+            document.getElementById("resultado").innerHTML = "Resultado: " + area;
+        });
+
+
+    </script>
+
+</body>
+
+</html>
